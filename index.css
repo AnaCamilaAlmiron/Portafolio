@@ -15,7 +15,10 @@ html {
 }
 
 .photo {
-  border-radius: 9999px;
+  object-fit: cover;
+  object-position: center;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .content {
